@@ -34,3 +34,4 @@
 @import 'EXT:site_skip2now/Configuration/TypoScript/Page/Page.typoscript'
 @import 'EXT:site_skip2now/Configuration/TypoScript/Page/FluidTemplate.typoscript'
 @import 'EXT:site_skip2now/Configuration/TypoScript/Page/Navigation.typoscript'
+@import 'EXT:site_skip2now/Configuration/TypoScript/Page/PageTitle.typoscript'

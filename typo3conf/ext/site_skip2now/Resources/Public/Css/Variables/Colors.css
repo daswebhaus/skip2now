@@ -11,6 +11,26 @@
 
 :root {
 
+
+    /* =========================================================
+     * Original Brand Palette | Skip2Now
+     * =========================================================
+     *
+     * Colors from the original design concept.
+     * Hex values are provisional until verified.
+     *
+     * Use these variables for future design components.
+     * Existing semantic colors remain unchanged.
+     */
+
+    --brand-deep-navy: #082545;
+    --brand-ocean-blue: #00A9D6;
+    --brand-nature-green: #2FC596;
+    --brand-sun-yellow: #FFB703;
+    --brand-sunset-orange: #FF8A35;
+    --brand-sky-light: #D5F0FF;
+
+
     /* Brand Colors */
     --color-primary: #082545;
     --color-secondary: #126E82;

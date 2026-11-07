@@ -1,0 +1,16 @@
+
+# =============================================================================
+# SITE SKIP2NOW | Page Title
+# =============================================================================
+#
+# File:        Configuration/TypoScript/Page/PageTitle.typoscript
+# Description: Global SEO page title suffix
+# Status:      CREATED
+#
+# =============================================================================
+
+config.pageTitle.append = TEXT
+config.pageTitle.append {
+    value = | Skip2Now | Deine Zeit. Dein Moment.
+    noTrimWrap = | ||
+}

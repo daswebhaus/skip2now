@@ -1,0 +1,38 @@
+
+/* =============================================================================
+ * SITE SKIP2NOW | Main Navigation
+ * =============================================================================
+ *
+ * File:        Resources/Public/Css/Components/MainNavigation.css
+ * Description: Main navigation styling and responsive behavior
+ * Status:      MIGRATED
+ *
+ * ============================================================================= */
+
+.main-navigation ul {
+    display: flex;
+    gap: 30px;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.main-navigation a {
+    font-weight: 500;
+}
+
+
+/* =============================================================================
+ * Responsive | Mobile
+ * ============================================================================= */
+
+@media (max-width: 768px) {
+
+    .main-navigation ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}

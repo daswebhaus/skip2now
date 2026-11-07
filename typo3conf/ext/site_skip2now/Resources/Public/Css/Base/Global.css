@@ -1,0 +1,38 @@
+
+/* =============================================================================
+ * SITE SKIP2NOW | Global Base Styles
+ * =============================================================================
+ *
+ * File:        Resources/Public/Css/Base/Global.css
+ * Description: Global reset, typography and basic element styling
+ * Status:      MIGRATED
+ *
+ * ============================================================================= */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: var(--color-text);
+    background: var(--color-background);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

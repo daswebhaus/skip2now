@@ -1,7 +1,13 @@
 
-# File: Configuration/TypoScript/Page/Navigation.typoscript
-# Description: Main navigation data processing for FLUIDTEMPLATE
-# Status: CREATED
+# =============================================================================
+# SITE SKIP2NOW | Main Navigation
+# =============================================================================
+#
+# File:        Configuration/TypoScript/Page/Navigation.typoscript
+# Description: Main navigation DataProcessor and CSS configuration
+# Status:      MIGRATED
+#
+# =============================================================================
 
 page {
     10 {
@@ -12,5 +18,9 @@ page {
                 as = mainNavigation
             }
         }
+    }
+
+    includeCSS {
+        mainNavigation = EXT:site_skip2now/Resources/Public/Css/Components/MainNavigation.css
     }
 }

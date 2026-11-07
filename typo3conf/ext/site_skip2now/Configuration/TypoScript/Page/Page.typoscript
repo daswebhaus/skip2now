@@ -12,7 +12,18 @@ page {
         viewport = width=device-width, initial-scale=1
     }
 
+
     includeCSS {
-        skip2now = EXT:site_skip2now/Resources/Public/Css/main.css
+        # Design Variables
+        colors = EXT:site_skip2now/Resources/Public/Css/Variables/Colors.css
+
+        # Global Base Styles
+        global = EXT:site_skip2now/Resources/Public/Css/Base/Global.css
+
+        # Page Layout
+        layout = EXT:site_skip2now/Resources/Public/Css/Page/Layout.css
+        header = EXT:site_skip2now/Resources/Public/Css/Page/Header.css
+        footer = EXT:site_skip2now/Resources/Public/Css/Page/Footer.css
     }
+
 }

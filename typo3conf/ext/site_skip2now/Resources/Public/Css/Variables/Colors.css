@@ -1,0 +1,63 @@
+
+/* =============================================================================
+ * SITE SKIP2NOW | Color Variables
+ * =============================================================================
+ *
+ * File:        Resources/Public/Css/Variables/Colors.css
+ * Description: Global brand, interface and semantic color variables
+ * Status:      CREATED
+ *
+ * ============================================================================= */
+
+:root {
+
+    /* Brand Colors */
+    --color-primary: #082545;
+    --color-secondary: #126E82;
+    --color-accent: #20C9B0;
+
+    /* Call-to-Action
+     *
+     * Primary CTA: Strong Blue
+     *
+     * Alternative color concepts:
+     * - Deep Turquoise: #087E8B
+     * - Warm Terracotta: #C2572A
+     *
+     * Alternative colors are reserved for future design testing.
+     * When changing the CTA color, review hover states,
+     * contrast and accessibility.
+     */
+
+    --color-cta: #2563EB;
+    --color-cta-hover: #1D4ED8;
+    --color-focus: #93C5FD;
+
+    /* Call-to-Action – Terracotta (ALTERNATIVE) */
+    /* --color-cta: #C2572A; */       /* Terracotta */
+    /* --color-cta-hover: #A84622; */ /* Terracotta Hover */
+    /* --color-focus: #F1B79B; */    /* Terracotta Focus */
+
+    /* Backgrounds */
+    --color-background: #FFFFFF;
+    --color-background-soft: #F5F8FB;
+    --color-background-tinted: #EAF4F5;
+    --color-background-dark: var(--color-primary);
+
+    /* Text Colors */
+    --color-text: var(--color-primary);
+    --color-text-secondary: #263B50;
+    --color-text-muted: #64748B;
+    --color-text-inverse: #FFFFFF;
+
+    /* Borders */
+    --color-border: #E8EEF3;
+    --color-border-strong: #CBD5E1;
+    --color-border-accent: var(--color-secondary);
+
+    /* Interactive Elements */
+    --color-link: var(--color-secondary);
+    --color-link-hover: var(--color-primary);
+    --color-button-text: #FFFFFF;
+
+}

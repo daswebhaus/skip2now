@@ -1,0 +1,30 @@
+
+/* =============================================================================
+ * SITE SKIP2NOW | Page Layout
+ * =============================================================================
+ *
+ * File:        Resources/Public/Css/Page/Layout.css
+ * Description: Global page containers and main content layout
+ * Status:      MIGRATED
+ *
+ * ============================================================================= */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+
+.container {
+    width: min(1200px, calc(100% - 40px));
+    margin-inline: auto;
+}
+
+.site-main {
+    flex: 1;
+    min-width: 0;
+}
+
+.page-content {
+    width: 100%;
+}

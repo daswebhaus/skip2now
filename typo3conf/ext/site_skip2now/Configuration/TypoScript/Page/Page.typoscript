@@ -26,5 +26,7 @@ page {
         layout = EXT:site_skip2now/Resources/Public/Css/Page/Layout.css
         header = EXT:site_skip2now/Resources/Public/Css/Page/Header.css
         footer = EXT:site_skip2now/Resources/Public/Css/Page/Footer.css
+        skip2nowFonts = EXT:site_skip2now/Resources/Public/Css/Base/Fonts.css
+        skip2nowTypography = EXT:site_skip2now/Resources/Public/Css/Base/Typography.css
     }
 }

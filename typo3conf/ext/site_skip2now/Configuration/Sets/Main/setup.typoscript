@@ -1,0 +1,15 @@
+
+# =============================================================================
+# SITE SKIP2NOW | Site Set TypoScript
+# =============================================================================
+#
+# File:        Configuration/Sets/Main/setup.typoscript
+# Description: Entry point for the central TypoScript configuration
+# Status:      CREATED
+#
+# This file loads the modular TypoScript configuration of the site extension.
+# All functional configurations are maintained in Configuration/TypoScript/.
+#
+# =============================================================================
+
+@import 'EXT:site_skip2now/Configuration/TypoScript/setup.typoscript'

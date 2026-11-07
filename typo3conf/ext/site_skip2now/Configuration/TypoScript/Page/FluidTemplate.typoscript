@@ -1,0 +1,23 @@
+
+# File: Configuration/TypoScript/Page/FluidTemplate.typoscript
+# Description: Global FLUIDTEMPLATE configuration and template paths
+# Status: CREATED
+
+page {
+    10 = FLUIDTEMPLATE
+    10 {
+        templateName = Default
+
+        templateRootPaths {
+            10 = EXT:site_skip2now/Resources/Private/Templates/Page/
+        }
+
+        partialRootPaths {
+            10 = EXT:site_skip2now/Resources/Private/Partials/
+        }
+
+        layoutRootPaths {
+            10 = EXT:site_skip2now/Resources/Private/Layouts/
+        }
+    }
+}

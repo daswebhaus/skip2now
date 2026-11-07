@@ -1,0 +1,18 @@
+
+# File: Configuration/TypoScript/Page/Page.typoscript
+# Description: Main PAGE object, viewport and global CSS
+# Status: CREATED
+
+page = PAGE
+
+page {
+    typeNum = 0
+
+    meta {
+        viewport = width=device-width, initial-scale=1
+    }
+
+    includeCSS {
+        skip2now = EXT:site_skip2now/Resources/Public/Css/main.css
+    }
+}

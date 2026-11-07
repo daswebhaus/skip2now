@@ -1,0 +1,16 @@
+
+# File: Configuration/TypoScript/Page/Navigation.typoscript
+# Description: Main navigation data processing for FLUIDTEMPLATE
+# Status: CREATED
+
+page {
+    10 {
+        dataProcessing {
+            2010 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
+            2010 {
+                levels = 2
+                as = mainNavigation
+            }
+        }
+    }
+}

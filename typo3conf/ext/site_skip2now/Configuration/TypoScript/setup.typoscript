@@ -1,38 +1,36 @@
-page = PAGE
 
-page {
-    typeNum = 0
+# =============================================================================
+# SITE SKIP2NOW | TYPO3 TypoScript Setup
+# =============================================================================
+#
+# File:        Configuration/TypoScript/setup.typoscript
+# Description: Central entry point for all project TypoScript configurations
+# Status:      MIGRATED
+#
+# Architecture:
+#   All TypoScript configurations are organized into functional modules.
+#   This file only manages imports and their loading order.
+#
+#   Page/            Page setup, Fluid templates and global DataProcessors
+#   Navigation/      Independent navigation components, such as breadcrumbs and footer navigation
+#   ContentElements/ Custom content elements
+#   Extensions/      Extension-specific configurations
+#   Integrations/    External services and integrations
+#   Features/        Project-specific features
+#
+# Guidelines:
+#   - Use explicit @import statements with complete EXT: paths.
+#   - Keep functional configurations in their respective modules.
+#   - Maintain the correct import order to avoid unintended overrides.
+#   - Add new modules only when required.
+#
+# =============================================================================
 
-    10 = FLUIDTEMPLATE
-    10 {
-        templateName = Default
 
-        templateRootPaths {
-            10 = EXT:site_skip2now/Resources/Private/Templates/Page/
-        }
+# -----------------------------------------------------------------------------
+# PAGE | Base configuration, Fluid templates and navigation
+# -----------------------------------------------------------------------------
 
-        partialRootPaths {
-            10 = EXT:site_skip2now/Resources/Private/Partials/
-        }
-
-        layoutRootPaths {
-            10 = EXT:site_skip2now/Resources/Private/Layouts/
-        }
-
-        dataProcessing {
-            10 = TYPO3\CMS\Frontend\DataProcessing\MenuProcessor
-            10 {
-                levels = 2
-                as = mainNavigation
-            }
-        }
-    }
-
-    includeCSS {
-        skip2now = EXT:site_skip2now/Resources/Public/Css/main.css
-    }
-
-    meta {
-        viewport = width=device-width, initial-scale=1
-    }
-}
+@import 'EXT:site_skip2now/Configuration/TypoScript/Page/Page.typoscript'
+@import 'EXT:site_skip2now/Configuration/TypoScript/Page/FluidTemplate.typoscript'
+@import 'EXT:site_skip2now/Configuration/TypoScript/Page/Navigation.typoscript'

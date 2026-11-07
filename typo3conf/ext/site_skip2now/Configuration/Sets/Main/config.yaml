@@ -1,0 +1,17 @@
+
+# =============================================================================
+# SITE SKIP2NOW | TYPO3 Site Set
+# =============================================================================
+#
+# File:        Configuration/Sets/Main/config.yaml
+# Description: Main site set configuration and dependencies
+# Status:      CREATED
+#
+# =============================================================================
+
+name: daswebhaus/site-skip2now
+label: 'Skip2Now | Main Site Set'
+
+dependencies:
+  - typo3/fluid-styled-content
+
